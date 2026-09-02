@@ -1,6 +1,8 @@
-# 🇫🇷 Ressources Françaises & 📺 Live TV / Sports (FMHY)
+# 🇫🇷 Ressources Françaises & 📺 Live TV / Sports
 
-> *Mise à jour automatique quotidienne depuis les sources officielles FMHY.*
+> **Note :** L'intégralité du contenu présenté sur cette page est extrait et mis à jour automatiquement depuis le projet officiel [FMHY (Freemediaheckyeah)](https://github.com/fmhy/FMHY).
+
+---
 
 ## French / Français
 
