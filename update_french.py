@@ -1,4 +1,3 @@
-import re
 import urllib.request
 
 URL = "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/non-english.md"
@@ -14,26 +13,22 @@ def fetch_and_extract():
 
     french_section = ""
     if text:
-        # Regex qui capture depuis "French / Français" jusqu'au prochain pays "German / Deutsch" ou "Greek"
-        # de manière à inclure tous les sous-titres (Downloading, Streaming, Torrenting, Reading...)
-        pattern = r"(##\s*French\s*/\s*Français.*?)(\n##\s*[A-Z][a-z]+(?:\s*/|\s*$)|\Z)"
-        match = re.search(pattern, text, re.DOTALL)
-        
-        if match:
-            french_section = match.group(1).strip()
-        else:
-            # Plan B de secours par découpage
-            start_pos = text.find("French / Français")
-            if start_pos != -1:
-                # On cherche le début de la section suivante (German)
-                end_pos = text.find("\n## German", start_pos)
-                if end_pos == -1:
-                    end_pos = text.find("\n## Greek", start_pos)
-                
-                if end_pos != -1:
-                    french_section = "## " + text[start_pos:end_pos].strip()
-                else:
-                    french_section = "## " + text[start_pos:].strip()
+        # Repérage du début exact de la section française
+        start_marker = "French / Français"
+        start_pos = text.find(start_marker)
+
+        if start_pos != -1:
+            # Repérage de la fin (début du pays suivant : German / Deutsch)
+            end_marker = "German / Deutsch"
+            end_pos = text.find(end_marker, start_pos)
+
+            if end_pos != -1:
+                # On remonte un peu avant "German / Deutsch" pour couper proprement le titre
+                content = text[start_pos:end_pos].rsplit("\n#", 1)[0].strip()
+            else:
+                content = text[start_pos:].strip()
+
+            french_section = "## " + content
 
     if not french_section:
         french_section = "## French / Français\n\nImpossible de charger la section pour le moment."
@@ -47,3 +42,4 @@ def fetch_and_extract():
 
 if __name__ == "__main__":
     fetch_and_extract()
+    
