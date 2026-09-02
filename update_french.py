@@ -1,14 +1,10 @@
 import urllib.request
 import re
 
+# Sources exactes
 URL_NON_ENGLISH = "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/non-english.md"
-
-# FMHY utilise 'videostreams.md' ou 'tv.md' pour cette section
-URLS_STREAMING = [
-    "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/videostreams.md",
-    "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/tv.md",
-    "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/sports.md"
-]
+# Page brute du Wiki GitHub "Streaming" de FMHY
+URL_WIKI_STREAMING = "https://raw.githubusercontent.com/wiki/fmhy/FMHY/Streaming.md"
 
 def download_text(url):
     try:
@@ -16,7 +12,7 @@ def download_text(url):
         with urllib.request.urlopen(req, timeout=15) as response:
             return response.read().decode('utf-8', errors='ignore')
     except Exception as e:
-        print(f"Échec sur {url} : {e}")
+        print(f"Erreur de téléchargement pour {url}: {e}")
         return ""
 
 def extract_french_section():
@@ -40,31 +36,23 @@ def extract_french_section():
     return "## French / Français\n\nSection non trouvée."
 
 def extract_sports_section():
-    text = ""
-    # Test des différentes URLs possibles
-    for url in URLS_STREAMING:
-        downloaded = download_text(url)
-        if downloaded:
-            text = downloaded
+    text = download_text(URL_WIKI_STREAMING)
+    if not text:
+        return "## Live TV / Sports\n\nImpossible de charger la page Streaming.md du Wiki."
+
+    # Cherche la section "Live TV / Sports" ou "Live TV" ou "Sports"
+    start_pos = -1
+    for marker in ["Live TV / Sports", "Live TV", "Sports"]:
+        pos = text.find(marker)
+        if pos != -1:
+            start_pos = pos
             break
 
-    if not text:
-        return "## Live TV / Sports\n\nImpossible de charger le fichier source streaming/videostreams."
-
-    # Recherche de 'Live TV' ou 'Sports' dans le fichier videostreams
-    start_pos = -1
-    for term in ["Live TV", "Sports", "Live Sports"]:
-        pos = text.find(term)
-        if pos != -1 and (start_pos == -1 or pos < start_pos):
-            start_pos = pos
-
     if start_pos != -1:
-        # On essaie d'extraire depuis ce point jusqu'à la section suivante ou la fin
-        end_pos = -1
-        for next_term in ["\n## Anime", "\n## Asian", "\n## Cartoons", "\n## Movies", "\n## Android"]:
-            pos = text.find(next_term, start_pos)
-            if pos != -1 and (end_pos == -1 or pos < end_pos):
-                end_pos = pos
+        # Cherche le début de la section suivante (titre de niveau 1 ou 2)
+        end_pos = text.find("\n# ", start_pos)
+        if end_pos == -1:
+            end_pos = text.find("\n## ", start_pos + 20)
 
         if end_pos != -1:
             content = text[start_pos:end_pos].strip()
@@ -73,7 +61,7 @@ def extract_sports_section():
 
         return "## " + content
 
-    # Si pas de découpe spécifique trouvée, on retourne le contenu du fichier
+    # Si la section exacte n'est pas découpable, renvoie la page wiki
     return "## Live TV / Sports\n\n" + text.strip()
 
 def main():
@@ -89,7 +77,7 @@ def main():
     with open("index.md", "w", encoding="utf-8") as f:
         f.write(final_markdown)
 
-    print("Mise à jour réussie de index.md avec French + Live TV / Sports !")
+    print("Mise à jour de index.md réussie !")
 
 if __name__ == "__main__":
     main()
