@@ -1,9 +1,7 @@
 import urllib.request
 import re
 
-# Sources exactes
 URL_NON_ENGLISH = "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/non-english.md"
-# Page brute du Wiki GitHub "Streaming" de FMHY
 URL_WIKI_STREAMING = "https://raw.githubusercontent.com/wiki/fmhy/FMHY/Streaming.md"
 
 def download_text(url):
@@ -38,31 +36,48 @@ def extract_french_section():
 def extract_sports_section():
     text = download_text(URL_WIKI_STREAMING)
     if not text:
-        return "## Live TV / Sports\n\nImpossible de charger la page Streaming.md du Wiki."
+        return "## Live TV / Sports\n\nImpossible de charger la section."
 
-    # Cherche la section "Live TV / Sports" ou "Live TV" ou "Sports"
-    start_pos = -1
-    for marker in ["Live TV / Sports", "Live TV", "Sports"]:
-        pos = text.find(marker)
-        if pos != -1:
-            start_pos = pos
-            break
+    # Début exact de la section Live TV / Sports
+    start_pos = text.find("Live TV / Sports")
+    if start_pos == -1:
+        start_pos = text.find("Live TV")
 
     if start_pos != -1:
-        # Cherche le début de la section suivante (titre de niveau 1 ou 2)
-        end_pos = text.find("\n# ", start_pos)
-        if end_pos == -1:
-            end_pos = text.find("\n## ", start_pos + 20)
+        # Fin de la section globale (avant Movies, Anime, etc.)
+        end_pos = -1
+        for next_marker in ["\n## Movies", "\n## Anime", "\n## Asian", "\n# Movies", "\n# Anime"]:
+            pos = text.find(next_marker, start_pos)
+            if pos != -1 and (end_pos == -1 or pos < end_pos):
+                end_pos = pos
 
         if end_pos != -1:
             content = text[start_pos:end_pos].strip()
         else:
             content = text[start_pos:].strip()
 
+        # Nettoyage : suppression des sous-sections IPTV et Replays
+        # On coupe dès qu'on rencontre IPTV ou Sports Replays
+        cut_markers = [
+            "IPTV", 
+            "Sports Replays", 
+            "Replays", 
+            "### IPTV", 
+            "### Sports Replays", 
+            "## IPTV"
+        ]
+        
+        cleaned_lines = []
+        for line in content.split("\n"):
+            # Si la ligne contient un des marqueurs d'exclusion en titre/sous-titre
+            if any(line.strip().startswith(m) or line.strip() == f"### {m}" or line.strip() == f"## {m}" for m in cut_markers):
+                break
+            cleaned_lines.append(line)
+
+        content = "\n".join(cleaned_lines).strip()
         return "## " + content
 
-    # Si la section exacte n'est pas découpable, renvoie la page wiki
-    return "## Live TV / Sports\n\n" + text.strip()
+    return "## Live TV / Sports\n\nSection non trouvée dans la source."
 
 def main():
     french_content = extract_french_section()
