@@ -36,48 +36,52 @@ def extract_french_section():
 def extract_sports_section():
     text = download_text(URL_WIKI_STREAMING)
     if not text:
-        return "## Live TV / Sports\n\nImpossible de charger la section."
+        return "## Live TV & Live Sports\n\nImpossible de charger la section."
 
-    # Début exact de la section Live TV / Sports
-    start_pos = text.find("Live TV / Sports")
+    # 1. Repérage du début de Live TV
+    start_pos = -1
+    for marker in ["▷ Live TV", "Live TV", "## Live TV"]:
+        pos = text.find(marker)
+        if pos != -1:
+            start_pos = pos
+            break
+
     if start_pos == -1:
-        start_pos = text.find("Live TV")
+        return "## Live TV / Sports\n\nSection non trouvée dans la source."
 
-    if start_pos != -1:
-        # Fin de la section globale (avant Movies, Anime, etc.)
-        end_pos = -1
-        for next_marker in ["\n## Movies", "\n## Anime", "\n## Asian", "\n# Movies", "\n# Anime"]:
-            pos = text.find(next_marker, start_pos)
-            if pos != -1 and (end_pos == -1 or pos < end_pos):
-                end_pos = pos
+    # 2. On cherche la fin de la partie 'Live Sports'
+    # On s'arrête dès qu'on croise des sous-sections qu'on ne veut pas (Replays, IPTV, Movies, Anime, etc.)
+    end_pos = -1
+    cut_markers = [
+        "Sports Replays", 
+        "▷ Sports Replays", 
+        "IPTV", 
+        "▷ IPTV", 
+        "## Movies", 
+        "▷ Movies", 
+        "## Anime", 
+        "▷ Anime", 
+        "↪️ Sports Calendars"
+    ]
 
-        if end_pos != -1:
-            content = text[start_pos:end_pos].strip()
-        else:
-            content = text[start_pos:].strip()
+    for marker in cut_markers:
+        pos = text.find(marker, start_pos)
+        if pos != -1 and (end_pos == -1 or pos < end_pos):
+            end_pos = pos
 
-        # Nettoyage : suppression des sous-sections IPTV et Replays
-        # On coupe dès qu'on rencontre IPTV ou Sports Replays
-        cut_markers = [
-            "IPTV", 
-            "Sports Replays", 
-            "Replays", 
-            "### IPTV", 
-            "### Sports Replays", 
-            "## IPTV"
-        ]
-        
-        cleaned_lines = []
-        for line in content.split("\n"):
-            # Si la ligne contient un des marqueurs d'exclusion en titre/sous-titre
-            if any(line.strip().startswith(m) or line.strip() == f"### {m}" or line.strip() == f"## {m}" for m in cut_markers):
-                break
-            cleaned_lines.append(line)
+    if end_pos != -1:
+        content = text[start_pos:end_pos].strip()
+    else:
+        # Si aucun marqueur de fin n'est trouvé, on prend 4000 caractères max
+        content = text[start_pos:start_pos+4000].strip()
 
-        content = "\n".join(cleaned_lines).strip()
-        return "## " + content
+    # Si le texte commence par ▷, on le remplace par un titre propre ##
+    if content.startswith("▷"):
+        content = "## " + content[1:].strip()
+    elif not content.startswith("#"):
+        content = "## " + content
 
-    return "## Live TV / Sports\n\nSection non trouvée dans la source."
+    return content
 
 def main():
     french_content = extract_french_section()
