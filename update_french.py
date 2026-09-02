@@ -40,25 +40,22 @@ def extract_sports_section():
 
     output_sections = []
 
-    # 1. Extraction de la sous-section Live TV
+    # 1. Live TV
     live_tv_match = re.search(r"(?:▷|##|\##\#)\s*Live TV\b.*?(?=\n(?:▷|##|\##\#)|\Z)", text, re.DOTALL | re.IGNORECASE)
     if live_tv_match:
         tv_content = live_tv_match.group(0).strip()
-        # Retrait des lignes IPTV s'il y en a à la fin de la liste TV
         tv_lines = [line for line in tv_content.split("\n") if "iptv" not in line.lower()]
         output_sections.append("\n".join(tv_lines))
 
-    # 2. Extraction de la sous-section Live Sports
+    # 2. Live Sports
     live_sports_match = re.search(r"(?:▷|##|\##\#)\s*Live Sports\b.*?(?=\n(?:▷|##|\##\#|\*\*Sports Replays\*\*|\*\*IPTV\*\*|\*\*Replays\*\*|\*\*Calendars\*\*)|$)", text, re.DOTALL | re.IGNORECASE)
     if live_sports_match:
         sports_content = live_sports_match.group(0).strip()
-        # Retrait des lignes Replays ou IPTV
         sports_lines = [line for line in sports_content.split("\n") if "replay" not in line.lower() and "iptv" not in line.lower()]
         output_sections.append("\n".join(sports_lines))
 
     if output_sections:
         result = "\n\n---\n\n".join(output_sections)
-        # Normalisation des titres sous forme de ##
         result = re.sub(r'^(?:▷|###)\s*', '## ', result, flags=re.MULTILINE)
         return result
 
@@ -68,8 +65,10 @@ def main():
     french_content = extract_french_section()
     sports_content = extract_sports_section()
 
-    final_markdown = "# 🇫🇷 Ressources Françaises & 📺 Live TV / Sports (FMHY)\n\n"
-    final_markdown += "> *Mise à jour automatique quotidienne depuis les sources officielles FMHY.*\n\n"
+    # En-tête avec mention de la source officielle
+    final_markdown = "# 🇫🇷 Ressources Françaises & 📺 Live TV / Sports\n\n"
+    final_markdown += "> **Note :** L'intégralité du contenu présenté sur cette page est extrait et mis à jour automatiquement depuis le projet officiel [FMHY (Freemediaheckyeah)](https://github.com/fmhy/FMHY).\n\n"
+    final_markdown += "---\n\n"
     final_markdown += french_content + "\n\n"
     final_markdown += "---\n\n"
     final_markdown += sports_content
