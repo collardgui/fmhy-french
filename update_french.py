@@ -1,7 +1,6 @@
 import re
 import urllib.request
 
-# Liste des URLs sources possibles (FMHY change parfois de dépôt principal)
 URLS = [
     "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/non-english.md",
     "https://raw.githubusercontent.com/fmhy/FMHY/main/docs/non-english.md",
@@ -13,28 +12,23 @@ def download_content():
     for url in URLS:
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req) as response:
-                content = response.read().decode('utf-8')
-                if content and len(content) > 1000:
-                    print(f"Téléchargement réussi depuis : {url}")
-                    return content
+            with urllib.request.urlopen(req, timeout=10) as response:
+                return response.read().decode('utf-8', errors='ignore')
         except Exception as e:
-            print(f"Échec pour {url} : {e}")
-    return None
+            print(f"Échec sur {url} : {e}")
+    return ""
 
 def fetch_and_extract():
     content = download_content()
     
-    french_content = None
-    if content:
-        # Recherche souple : cherche un titre contenant 'French' ou 'Français'
-        pattern = r"(##\s*.*(?:French|Français).*?)(?=\n##\s|\Z)"
-        match = re.search(pattern, content, re.DOTALL | re.IGNORECASE)
-        if match:
-            french_content = match.group(1).strip()
+    # Regex pour isoler la section French / Français
+    pattern = r"(##\s*.*?(?:French|Français).*?)(?=\n##\s|\Z)"
+    match = re.search(pattern, content, re.DOTALL | re.IGNORECASE) if content else None
 
-    if not french_content:
-        french_content = "## French / Français\n\nImpossible de charger la section pour le moment. Nouvelle tentative programmée."
+    if match:
+        french_content = match.group(1).strip()
+    else:
+        french_content = "## French / Français\n\nImpossible de charger la section pour le moment."
 
     final_markdown = "# 🇫🇷 Ressources Françaises (FMHY)\n\n"
     final_markdown += "> *Mise à jour automatique quotidienne depuis la source officielle FMHY.*\n\n"
@@ -42,7 +36,6 @@ def fetch_and_extract():
 
     with open("index.md", "w", encoding="utf-8") as f:
         f.write(final_markdown)
-    print("Fichier index.md mis à jour avec succès !")
 
 if __name__ == "__main__":
     fetch_and_extract()
