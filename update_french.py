@@ -2,7 +2,13 @@ import urllib.request
 import re
 
 URL_NON_ENGLISH = "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/non-english.md"
-URL_STREAMING = "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/streaming.md"
+
+# FMHY utilise 'videostreams.md' ou 'tv.md' pour cette section
+URLS_STREAMING = [
+    "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/videostreams.md",
+    "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/tv.md",
+    "https://raw.githubusercontent.com/fmhy/FMHYedit/main/docs/sports.md"
+]
 
 def download_text(url):
     try:
@@ -10,7 +16,7 @@ def download_text(url):
         with urllib.request.urlopen(req, timeout=15) as response:
             return response.read().decode('utf-8', errors='ignore')
     except Exception as e:
-        print(f"Erreur de téléchargement depuis {url} : {e}")
+        print(f"Échec sur {url} : {e}")
         return ""
 
 def extract_french_section():
@@ -34,31 +40,28 @@ def extract_french_section():
     return "## French / Français\n\nSection non trouvée."
 
 def extract_sports_section():
-    text = download_text(URL_STREAMING)
+    text = ""
+    # Test des différentes URLs possibles
+    for url in URLS_STREAMING:
+        downloaded = download_text(url)
+        if downloaded:
+            text = downloaded
+            break
+
     if not text:
-        return "## Live TV / Sports\n\nImpossible de charger le fichier streaming.md."
+        return "## Live TV / Sports\n\nImpossible de charger le fichier source streaming/videostreams."
 
-    # Recherche souple pour Live TV / Sports ou Live TV ou Sports
-    # Cherche un titre '## Live TV' ou '## Sports' ou '## Live TV / Sports'
-    pattern = r"(##\s*.*?(?:Live TV|Sports).*?)(?=\n##\s|\Z)"
-    matches = re.findall(pattern, text, re.DOTALL | re.IGNORECASE)
-
-    if matches:
-        # On regroupe toutes les sections correspondantes (Live TV + Sports)
-        combined_sports = "\n\n".join([m.strip() for m in matches])
-        return combined_sports
-
-    # Plan B : extrait depuis 'Live TV' jusqu'à 'Anime' ou 'Podcasts' ou 'Asian'
+    # Recherche de 'Live TV' ou 'Sports' dans le fichier videostreams
     start_pos = -1
-    for term in ["Live TV", "Sports"]:
-        pos = text.lower().find(term.lower())
+    for term in ["Live TV", "Sports", "Live Sports"]:
+        pos = text.find(term)
         if pos != -1 and (start_pos == -1 or pos < start_pos):
             start_pos = pos
 
     if start_pos != -1:
-        # On cherche la fin de la section
+        # On essaie d'extraire depuis ce point jusqu'à la section suivante ou la fin
         end_pos = -1
-        for next_term in ["\n## Anime", "\n## Asian", "\n## Cartoons", "\n## Movies"]:
+        for next_term in ["\n## Anime", "\n## Asian", "\n## Cartoons", "\n## Movies", "\n## Android"]:
             pos = text.find(next_term, start_pos)
             if pos != -1 and (end_pos == -1 or pos < end_pos):
                 end_pos = pos
@@ -66,11 +69,12 @@ def extract_sports_section():
         if end_pos != -1:
             content = text[start_pos:end_pos].strip()
         else:
-            content = text[start_pos:start_pos+5000].strip()
+            content = text[start_pos:].strip()
 
         return "## " + content
 
-    return "## Live TV / Sports\n\nSection non trouvée dans le fichier source."
+    # Si pas de découpe spécifique trouvée, on retourne le contenu du fichier
+    return "## Live TV / Sports\n\n" + text.strip()
 
 def main():
     french_content = extract_french_section()
