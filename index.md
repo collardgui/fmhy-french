@@ -112,4 +112,4 @@
 
 ## Live TV / Sports
 
-Impossible de charger le fichier streaming.md.
+Impossible de charger le fichier source streaming/videostreams.
