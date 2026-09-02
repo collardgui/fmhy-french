@@ -36,52 +36,33 @@ def extract_french_section():
 def extract_sports_section():
     text = download_text(URL_WIKI_STREAMING)
     if not text:
-        return "## Live TV & Live Sports\n\nImpossible de charger la section."
+        return "## Live TV / Sports\n\nImpossible de charger la section."
 
-    # 1. Repérage du début de Live TV
-    start_pos = -1
-    for marker in ["▷ Live TV", "Live TV", "## Live TV"]:
-        pos = text.find(marker)
-        if pos != -1:
-            start_pos = pos
-            break
+    output_sections = []
 
-    if start_pos == -1:
-        return "## Live TV / Sports\n\nSection non trouvée dans la source."
+    # 1. Extraction de la sous-section Live TV
+    live_tv_match = re.search(r"(?:▷|##|\##\#)\s*Live TV\b.*?(?=\n(?:▷|##|\##\#)|\Z)", text, re.DOTALL | re.IGNORECASE)
+    if live_tv_match:
+        tv_content = live_tv_match.group(0).strip()
+        # Retrait des lignes IPTV s'il y en a à la fin de la liste TV
+        tv_lines = [line for line in tv_content.split("\n") if "iptv" not in line.lower()]
+        output_sections.append("\n".join(tv_lines))
 
-    # 2. On cherche la fin de la partie 'Live Sports'
-    # On s'arrête dès qu'on croise des sous-sections qu'on ne veut pas (Replays, IPTV, Movies, Anime, etc.)
-    end_pos = -1
-    cut_markers = [
-        "Sports Replays", 
-        "▷ Sports Replays", 
-        "IPTV", 
-        "▷ IPTV", 
-        "## Movies", 
-        "▷ Movies", 
-        "## Anime", 
-        "▷ Anime", 
-        "↪️ Sports Calendars"
-    ]
+    # 2. Extraction de la sous-section Live Sports
+    live_sports_match = re.search(r"(?:▷|##|\##\#)\s*Live Sports\b.*?(?=\n(?:▷|##|\##\#|\*\*Sports Replays\*\*|\*\*IPTV\*\*|\*\*Replays\*\*|\*\*Calendars\*\*)|$)", text, re.DOTALL | re.IGNORECASE)
+    if live_sports_match:
+        sports_content = live_sports_match.group(0).strip()
+        # Retrait des lignes Replays ou IPTV
+        sports_lines = [line for line in sports_content.split("\n") if "replay" not in line.lower() and "iptv" not in line.lower()]
+        output_sections.append("\n".join(sports_lines))
 
-    for marker in cut_markers:
-        pos = text.find(marker, start_pos)
-        if pos != -1 and (end_pos == -1 or pos < end_pos):
-            end_pos = pos
+    if output_sections:
+        result = "\n\n---\n\n".join(output_sections)
+        # Normalisation des titres sous forme de ##
+        result = re.sub(r'^(?:▷|###)\s*', '## ', result, flags=re.MULTILINE)
+        return result
 
-    if end_pos != -1:
-        content = text[start_pos:end_pos].strip()
-    else:
-        # Si aucun marqueur de fin n'est trouvé, on prend 4000 caractères max
-        content = text[start_pos:start_pos+4000].strip()
-
-    # Si le texte commence par ▷, on le remplace par un titre propre ##
-    if content.startswith("▷"):
-        content = "## " + content[1:].strip()
-    elif not content.startswith("#"):
-        content = "## " + content
-
-    return content
+    return "## Live TV / Sports\n\nSection non trouvée dans la source."
 
 def main():
     french_content = extract_french_section()
