@@ -1,6 +1,8 @@
-# 🇫🇷 Ressources Françaises (FMHY)
+# 🇫🇷 Ressources Françaises & 📺 Live TV / Sports (FMHY)
 
-> *Mise à jour automatique quotidienne depuis la source officielle FMHY.*
+> *Mise à jour automatique quotidienne depuis les sources officielles FMHY.*
+
+---
 
 ## French / Français
 
@@ -107,3 +109,9 @@
 * [ORAEDES](https://oraedes.fr/) - Occult / Esoteric
 
 ***
+
+---
+
+## Live TV / Sports
+
+Impossible de charger la section pour le moment.
