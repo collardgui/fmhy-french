@@ -2,8 +2,6 @@
 
 > *Mise à jour automatique quotidienne depuis les sources officielles FMHY.*
 
----
-
 ## French / Français
 
 * 🌐 **[⁠Tipiakeries](https://rentry.co/alpagang)** - French Piracy Mega / [Subreddit](https://www.reddit.com/r/FrancePirate/)
@@ -114,4 +112,4 @@
 
 ## Live TV / Sports
 
-Impossible de charger la section pour le moment.
+Impossible de charger le fichier streaming.md.
