@@ -43,6 +43,8 @@
 
 ## ▷ Streaming
 
+* ⭐ **[OpenFlix](https://openflix.pro/)** - Movies / TV / Anime / Discord Required
+* [⁠Bowd](https://bowdtv.com/) - Movies / TV / Live TV
 * [yablom](https://yablom.com/), [Kordoz](https://www.kordoz.com/) or [Dotriv](https://dotriv.com/) - Movies / TV / Anime
 * [French Stream](https://french-stream.one/) - Movies / TV / Anime / [Status](https://fstream.info/)
 * [⁠Purstream](https://purstream.wiki/) - Movies / TV / Anime
@@ -133,7 +135,6 @@
 * [xyzstreams](https://xyzstreams.st/) - TV / Sports
 * [⁠OpStream Live](https://opstream.fun/live) - TV / Sports
 * [⁠TV Explorer](https://tvexplorer.live/) - TV / Sports
-* [CineBolt TV](https://cinebolt.org/live) - TV / Sports
 * [TV247US](https://tvnow247.today/) - TV / Sports
 * [Heartive](https://heartivelovestv.pages.dev/live/) - TV / Sports
 * [CXtv](https://www.cxtvlive.com/) - TV / Sports
@@ -184,6 +185,7 @@
 * ⭐ **[DaddyLive](https://dlhd.st/)**, [2](https://daddylive.pk/) - TV / Sports / [Telegram](https://t.me/+8uBUT1-0B741NTll)
 * ⭐ **[LiveTV](https://livetv.sx/enx/)**
 * [Sportsurge](https://v2.sportsurge.net/home5/) - Stream Aggregator
+* [Reedstreams](https://reedstreams.cc/), [2](https://reedstreams.watch/), [3](https://reedstreams.ws/) - Stream Aggregator / [Status](https://reedstreams.link/) / [Discord](https://discord.gg/fGfgxcnXUv)
 * [⁠zlive](https://zlive.st/)
 * [TotalSportek](https://totalsportek.st/), [Score808](https://score808hd.tv/) or [Sportsurge.st](http://sportsurge.st/) - Stream Aggregator / [Discord](https://discord.com/invite/mdEsarNMyF)
 * [Strumyk](https://strumyk.pk/) or [Strims24](https://strims24.pl/) - Stream Aggregator / [Status](https://strumyk.domains/)
