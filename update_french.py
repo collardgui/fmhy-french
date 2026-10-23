@@ -30,7 +30,9 @@ def extract_french_section():
         else:
             content = text[start_pos:].strip()
 
-        return "## " + content
+        # On nettoie les dièses éventuels au début pour normaliser le titre
+        content = re.sub(r'^(?:#+|\s)*', '', content)
+        return "## French / Français\n\n" + content
     return "## French / Français\n\nSection non trouvée."
 
 def extract_sports_section():
@@ -65,18 +67,16 @@ def main():
     french_content = extract_french_section()
     sports_content = extract_sports_section()
 
-    # Insertion de la section outils personnalisée directement sous le premier titre de la section French
-    tools_block = "\n\n### 🛠️ Outils Utiles\n* [Ported2Browser](https://ported2browser.com/?lang=fr) — Émulateurs, jeux et logiciels exécutables directement dans le navigateur.\n\n"
-    
-    if "## French / Français" in french_content:
-        french_content = french_content.replace("## French / Français", "## French / Français" + tools_block, 1)
-    else:
-        french_content = tools_block + french_content
+    # Bloc Outils Utiles
+    tools_block = "### 🛠️ Outils Utiles\n\n* [Ported2Browser](https://ported2browser.com/?lang=fr) — Émulateurs, jeux et logiciels exécutables directement dans le navigateur.\n\n---\n\n"
 
-    # Assemblage du document final
+    # En-tête principal
     final_markdown = "# 🇫🇷 Ressources Françaises & 📺 Live TV / Sports\n\n"
     final_markdown += "> **Note :** L'intégralité du contenu présenté sur cette page est extrait et mis à jour automatiquement depuis le projet officiel [FMHY (Freemediaheckyeah)](https://github.com/fmhy/FMHY).\n\n"
     final_markdown += "---\n\n"
+    
+    # On force l'écriture de la section outils avant le contenu extrait
+    final_markdown += tools_block
     final_markdown += french_content + "\n\n"
     final_markdown += "---\n\n"
     final_markdown += sports_content
