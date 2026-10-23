@@ -13,6 +13,15 @@ def download_text(url):
         print(f"Erreur de téléchargement pour {url}: {e}")
         return ""
 
+def convert_links_to_target_blank(text):
+    """
+    Transforme les liens Markdown [Texte](URL) en balises HTML
+    qui s'ouvrent dans un nouvel onglet.
+    """
+    pattern = r'\[([^\]]+)\]\((https?://[^\s\)]+)\)'
+    replacement = r'<a href="\2" target="_blank" rel="noopener noreferrer">\1</a>'
+    return re.sub(pattern, replacement, text)
+
 def extract_french_section():
     text = download_text(URL_NON_ENGLISH)
     if not text:
@@ -67,7 +76,7 @@ def main():
     sports_content = extract_sports_section()
 
     # Bloc Outils Utiles
-    tools_block = "## 🛠️ Outils Utiles\n\n* [Ported2Browser](https://ported2browser.com/?lang=fr) — Émulateurs, jeux et logiciels exécutables directement dans le navigateur."
+    tools_block = '## 🛠️ Outils Utiles\n\n* [Ported2Browser](https://ported2browser.com/?lang=fr) — Émulateurs, jeux et logiciels exécutables directement dans le navigateur.'
 
     # En-tête principal
     final_markdown = "# 🇫🇷 Ressources Françaises & 📺 Live TV / Sports\n\n"
@@ -83,10 +92,13 @@ def main():
     # Section Outils Utiles tout en bas
     final_markdown += tools_block
 
+    # Conversion globale de tous les liens Markdown vers target="_blank"
+    final_markdown = convert_links_to_target_blank(final_markdown)
+
     with open("index.md", "w", encoding="utf-8") as f:
         f.write(final_markdown)
 
-    print("Mise à jour de index.md réussie !")
+    print("Mise à jour de index.md réussie avec conversion des liens !")
 
 if __name__ == "__main__":
     main()
