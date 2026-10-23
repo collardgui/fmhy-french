@@ -1,30 +1,33 @@
-name: Veille Automatique FMHY French
+name: Update FMHY French Page
 
 on:
   schedule:
+    # Exécution automatique chaque jour à minuit
     - cron: '0 0 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Permet de lancer le script manuellement
+
+permissions:
+  contents: write # ⚠️ OBLIGATOIRE pour autoriser le bot à modifier index.md
 
 jobs:
-  build:
+  build-and-update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Récupération des fichiers du dépôt
+      - name: Récupérer le code du dépôt
         uses: actions/checkout@v4
 
-      - name: Configuration de Python
+      - name: Configurer Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Exécution du script de veille
+      - name: Exécuter le script d'extraction
         run: python update_french.py
 
-      - name: Enregistrement et publication des modifications
+      - name: Commiter et pousser les modifications
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add index.md
-          git diff --staged --quiet || git commit -m "Auto-update FMHY French section"
-          git push || true
-          
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour automatique de index.md" && git push)
