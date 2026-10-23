@@ -4,12 +4,6 @@
 
 ---
 
-### 🛠️ Outils Utiles
-
-* [Ported2Browser](https://ported2browser.com/?lang=fr) — Émulateurs, jeux et logiciels exécutables directement dans le navigateur.
-
----
-
 ## French / Français
 
 French / Français
@@ -218,3 +212,9 @@ French / Français
 * [Tiz-Cycling](https://tiz-cycling.tv/) - Cycling
 
 ***
+
+---
+
+## 🛠️ Outils Utiles
+
+* [Ported2Browser](https://ported2browser.com/?lang=fr) — Émulateurs, jeux et logiciels exécutables directement dans le navigateur.
