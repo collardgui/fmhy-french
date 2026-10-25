@@ -52,7 +52,6 @@ French / Français
 * <a href="https://aether.ist/" target="_blank" rel="noopener noreferrer">Aether</a>, <a href="https://aether.cx/" target="_blank" rel="noopener noreferrer">2</a> - Movies / TV / Anime / Auto-Next / <a href="https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/movie-web-sources.md" target="_blank" rel="noopener noreferrer">Extensions</a> / <a href="https://discord.gg/MadMF7xb5q" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://www.dulourd.boo/" target="_blank" rel="noopener noreferrer">dulourd</a> - Movies / TV
 * <a href="https://frembed.surf/" target="_blank" rel="noopener noreferrer">frembed</a> - Movies / TV / Anime / Dub
-* <a href="https://nakastream.wiki/" target="_blank" rel="noopener noreferrer">nakastream</a> - Movies / TV / Anime / Invites in Discord / <a href="https://nakastream.wiki/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/nakastreamtv" target="_blank" rel="noopener noreferrer">Telegram</a>
 * <a href="https://mfp666.blogspot.com/" target="_blank" rel="noopener noreferrer">Paradise lost.666</a> - Classic French Movies / TV / Music
 * <a href="https://filmarevoirnad.blogspot.com/" target="_blank" rel="noopener noreferrer">Film à Revoir</a> - Classic French Movies
 * <a href="https://humungus-cinebisart.blogspot.com/" target="_blank" rel="noopener noreferrer">Ciné-Bis-Art</a> - Movies / Requires Sign-Up
@@ -185,7 +184,7 @@ French / Français
 * <a href="https://matchora.to/" target="_blank" rel="noopener noreferrer">⁠Matchora</a>
 * <a href="https://total-sportekk.st/" target="_blank" rel="noopener noreferrer">TotalSportek</a> or <a href="https://ww1.sportsurge.st/" target="_blank" rel="noopener noreferrer">Sportsurge.st</a> / <a href="https://discord.com/invite/mdEsarNMyF" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://tap4sport.st/" target="_blank" rel="noopener noreferrer">Tap4Sport</a>, <a href="https://tap4sport.ci/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://tap4sport.pw/" target="_blank" rel="noopener noreferrer">3</a> / <a href="http://tap4sport.link/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/+LWp6SUzrbVUwZjE0" target="_blank" rel="noopener noreferrer">TG</a>
-* <a href="https://cmvh.lovable.app/" target="_blank" rel="noopener noreferrer">⁠CMVTV</a> / <a href="https://cmvwd.lovable.app/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/cricketmemesverse" target="_blank" rel="noopener noreferrer">Telegram</a>
+* <a href="https://cmvv.lovable.app/" target="_blank" rel="noopener noreferrer">⁠CMVTV</a> / <a href="https://cmvwd.lovable.app/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/cricketmemesverse" target="_blank" rel="noopener noreferrer">Telegram</a>
 * <a href="https://fantasticsoda.com/" target="_blank" rel="noopener noreferrer">⁠Fantastic Soda</a>
 * <a href="https://freestreams-live1h.pk/" target="_blank" rel="noopener noreferrer">FSL</a> / <a href="https://discord.gg/eXXJzDPchU" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://streamic.st/" target="_blank" rel="noopener noreferrer">⁠Streami</a> / <a href="https://rentry.co/Streami" target="_blank" rel="noopener noreferrer">Status</a>
@@ -193,6 +192,7 @@ French / Français
 * <a href="https://falconstreams.app/" target="_blank" rel="noopener noreferrer">⁠FalconStreams</a> / <a href="https://discord.gg/FPgKwtXcYV" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://crichd.at/" target="_blank" rel="noopener noreferrer">CricHD</a>
 * <a href="https://thetvapp.plus/" target="_blank" rel="noopener noreferrer">TheTVApp</a>
+* <a href="https://www.rerace.net/sports/" target="_blank" rel="noopener noreferrer">Rerace</a>
 * <a href="https://reedstreams.to/" target="_blank" rel="noopener noreferrer">Reedsports</a>
 * <a href="https://mainportal66.com/" target="_blank" rel="noopener noreferrer">MainPortal66</a>
 * <a href="https://www.fctv33hd.uno/" target="_blank" rel="noopener noreferrer">⁠FCTV33</a>, <a href="https://emmau680.driveraudiencej2zeu49.sbs/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://t.me/madplay77_b" target="_blank" rel="noopener noreferrer">Telegram</a>
