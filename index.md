@@ -125,7 +125,7 @@ French / Français
 * <a href="https://www.1tube.org/live-tv" target="_blank" rel="noopener noreferrer">1TUbe</a> - TV / Sports
 * <a href="https://tvnow.st/" target="_blank" rel="noopener noreferrer">⁠TVNow</a> - TV / Sports
 * <a href="https://play.xumo.com/networks" target="_blank" rel="noopener noreferrer">Xumo Play</a> - TV / US Only
-* <a href="https://damitv.st/livetv" target="_blank" rel="noopener noreferrer">DamiTV</a> or <a href="https://www.90minutes.pro/" target="_blank" rel="noopener noreferrer">90minutes</a> - TV / Sports / <a href="https://discord.gg/SyUrxKykh" target="_blank" rel="noopener noreferrer">Discord</a>
+* <a href="https://damitv.st/livetv" target="_blank" rel="noopener noreferrer">DamiTV</a> or <a href="https://ondemand.st/" target="_blank" rel="noopener noreferrer">OnDemand</a>, <a href="https://www.90minutes.pro/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://ondemand.to" target="_blank" rel="noopener noreferrer">3</a> - TV / Sports / <a href="https://discord.gg/SyUrxKykh" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://pluto.tv/live-tv" target="_blank" rel="noopener noreferrer">Pluto</a>, <a href="https://app-lgwebos.pluto.tv/live-tv" target="_blank" rel="noopener noreferrer">2</a> - TV / Sports / US Only
 * <a href="https://freetvgarden.com/" target="_blank" rel="noopener noreferrer">⁠FreeTVGarden</a> - TV / Sports / Globe Style
 * <a href="https://xyzstreams.st/" target="_blank" rel="noopener noreferrer">xyzstreams</a> - TV / Sports
@@ -134,7 +134,6 @@ French / Français
 * <a href="https://www.cxtvlive.com/" target="_blank" rel="noopener noreferrer">CXtv</a> - TV / Sports
 * <a href="https://watchtvs.live/" target="_blank" rel="noopener noreferrer">WatchTVs</a> - TV
 * <a href="https://zerostream.alwaysdata.net/" target="_blank" rel="noopener noreferrer">Zerostream</a> - TV
-* <a href="http://vegetatv.duckdns.org/" target="_blank" rel="noopener noreferrer">Vegeta TV</a> - TV / Sports
 * <a href="https://www.globalfreetv.com/" target="_blank" rel="noopener noreferrer">Global Free TV</a> - TV / <a href="https://discord.com/invite/pPaerCghRN" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://vipotv.com/" target="_blank" rel="noopener noreferrer">vipotv</a> - TV / Sports
 * <a href="https://www.squidtv.net/" target="_blank" rel="noopener noreferrer">SquidTV</a> - TV
@@ -180,6 +179,7 @@ French / Français
 * <a href="https://xyzstreams.st/" target="_blank" rel="noopener noreferrer">xyzstreams</a>
 * <a href="https://v2.sportsurge.net/" target="_blank" rel="noopener noreferrer">Sportsurge</a>
 * <a href="https://matchora.to/" target="_blank" rel="noopener noreferrer">⁠Matchora</a>
+* <a href="https://stability.taxidev.me/" target="_blank" rel="noopener noreferrer">⁠Stability</a>
 * <a href="https://total-sportekk.st/" target="_blank" rel="noopener noreferrer">TotalSportek</a> or <a href="https://ww1.sportsurge.st/" target="_blank" rel="noopener noreferrer">Sportsurge.st</a> / <a href="https://discord.com/invite/mdEsarNMyF" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://tap4sport.st/" target="_blank" rel="noopener noreferrer">Tap4Sport</a>, <a href="https://tap4sport.ci/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://tap4sport.pw/" target="_blank" rel="noopener noreferrer">3</a> / <a href="http://tap4sport.link/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/+LWp6SUzrbVUwZjE0" target="_blank" rel="noopener noreferrer">TG</a>
 * <a href="https://cmvxd.lovable.app/" target="_blank" rel="noopener noreferrer">⁠CMVTV</a> / <a href="https://cmvwd.lovable.app/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/cricketmemesverse" target="_blank" rel="noopener noreferrer">Telegram</a>
