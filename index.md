@@ -44,6 +44,7 @@ French / Français
 
 ## ▷ Streaming
 
+* ⭐ **<a href="https://flixvision.xyz/" target="_blank" rel="noopener noreferrer">⁠FlixVison</a>** - Movies / TV / Anime
 * ⭐ **<a href="https://openflix.pro/" target="_blank" rel="noopener noreferrer">OpenFlix</a>** - Movies / TV / Anime
 * <a href="https://pirvab.com/" target="_blank" rel="noopener noreferrer">yablom</a> - Movies / TV / Anime
 * <a href="https://fs27.lol/" target="_blank" rel="noopener noreferrer">French Stream</a> - Movies / TV / Anime / <a href="https://fstream.info/" target="_blank" rel="noopener noreferrer">Status</a>
@@ -58,7 +59,6 @@ French / Français
 * <a href="https://www.tf1.fr/" target="_blank" rel="noopener noreferrer">TF1</a> - Live TV / Movies / TV / Anime / Requires French VPN for Some Content
 * <a href="https://1jour1film0926.cyou/" target="_blank" rel="noopener noreferrer">1jour1film0626</a> - Movies / TV / Anime
 * <a href="https://myfluneo.eu/" target="_blank" rel="noopener noreferrer">myfluneo</a> - Movies / TV / Anime
-* <a href="https://flixvision.xyz/" target="_blank" rel="noopener noreferrer">⁠FlixVison</a> - Movies / TV / Anime
 * <a href="https://streaming-integrale.com/" target="_blank" rel="noopener noreferrer">⁠streaming-integrale</a> - Movies / TV / Anime
 * <a href="https://flemmix.party/" target="_blank" rel="noopener noreferrer">flemmix</a> - Movies / TV / Anime / <a href="https://ww1.wiflix-adresses.fun/" target="_blank" rel="noopener noreferrer">Mirrors</a> / <a href="https://t.me/flemmixwiflix" target="_blank" rel="noopener noreferrer">Telegram</a>
 * <a href="https://cinelibre.fr/" target="_blank" rel="noopener noreferrer">cinelibre</a> - Free w/ Ads Aggregator
@@ -141,6 +141,7 @@ French / Français
 * <a href="https://awardstreams.pages.dev/" target="_blank" rel="noopener noreferrer">AwardStreams</a> - Live Award Shows / <a href="https://x.com/AwardStreamLive" target="_blank" rel="noopener noreferrer">X</a> / <a href="https://t.me/+i7T1CzmIYL00Mjhh" target="_blank" rel="noopener noreferrer">Telegram</a>
 * <a href="https://puffer.stanford.edu/" target="_blank" rel="noopener noreferrer">Puffer</a> - San Fran TV / Requires Sign-Up
 * <a href="https://tv.jest.one/" target="_blank" rel="noopener noreferrer">TV.Jest</a> or <a href="https://worldnews24.tv/" target="_blank" rel="noopener noreferrer">WorldNews24</a> - News
+* <a href="https://election.run/" target="_blank" rel="noopener noreferrer">⁠election.run</a> - Multi-Stream Election Streams / News
 * <a href="https://showroom-live.com/" target="_blank" rel="noopener noreferrer">SHOWROOM</a> - Live Performance Broadcasts
 * <a href="https://koryo.tv/" target="_blank" rel="noopener noreferrer">Koryo TV</a> or <a href="https://kcnawatch.us/korea-central-tv-livestream" target="_blank" rel="noopener noreferrer">KCNA</a> - North Korean Live TV
 
@@ -157,12 +158,12 @@ French / Français
 * ↪️ **<a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25BA_sports" target="_blank" rel="noopener noreferrer">Sports Calendars / Resources</a>**
 * ⭐ **<a href="https://tim-streams.com/" target="_blank" rel="noopener noreferrer">TimStreams</a>**, <a href="https://timstreams.co.rw/" target="_blank" rel="noopener noreferrer">2</a> - Live Events / <a href="https://discord.gg/fTt4jKWM3u" target="_blank" rel="noopener noreferrer">Discord</a>
 * ⭐ **<a href="https://streamcorner.st/" target="_blank" rel="noopener noreferrer">StreamCorner</a>**, <a href="https://streamcorner.foo/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://streamcorner.cloud/" target="_blank" rel="noopener noreferrer">3</a>, <a href="https://streamcorner.fun/" target="_blank" rel="noopener noreferrer">4</a> / <a href="https://beacons.ai/streamcorner" target="_blank" rel="noopener noreferrer">Status</a> / <a href="http://discord.gg/vV6rRFtWhW" target="_blank" rel="noopener noreferrer">Discord</a>
-* ⭐ **[⁠StreamFree](https:/strmfree.pk/)**, <a href="https://strmfree.st/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://streamfree.top/" target="_blank" rel="noopener noreferrer">3</a> / <a href="https://strmfree.link/" target="_blank" rel="noopener noreferrer">Mirrors</a> / <a href="https://discord.gg/XkkAQ2PEDz" target="_blank" rel="noopener noreferrer">Discord</a>
+* ⭐ **<a href="https://strmfree.pk/" target="_blank" rel="noopener noreferrer">⁠StreamFree</a>**, <a href="https://strmfree.st/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://streamfree.top/" target="_blank" rel="noopener noreferrer">3</a> / <a href="https://strmfree.link/" target="_blank" rel="noopener noreferrer">Mirrors</a> / <a href="https://discord.gg/XkkAQ2PEDz" target="_blank" rel="noopener noreferrer">Discord</a>
 * ⭐ **<a href="https://ppv.st/" target="_blank" rel="noopener noreferrer">PPV.ST</a>**, <a href="https://ppv.tj" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://ppv.rw/" target="_blank" rel="noopener noreferrer">3</a>, <a href="https://ppv.ms/" target="_blank" rel="noopener noreferrer">4</a>, <a href="https://ppv.bi/" target="_blank" rel="noopener noreferrer">5</a>, <a href="https://ppvs.pk/" target="_blank" rel="noopener noreferrer">6</a>, <a href="https://ppv.ug/" target="_blank" rel="noopener noreferrer">7</a> - Live Events / <a href="https://mirrors.st/" target="_blank" rel="noopener noreferrer">Mirrors</a> / <a href="https://ppv.st/discord" target="_blank" rel="noopener noreferrer">Discord</a>
 * ⭐ **<a href="https://zlive.st/" target="_blank" rel="noopener noreferrer">zlive</a>**
+* ⭐ **<a href="https://sportsbite.org/" target="_blank" rel="noopener noreferrer">SportsBite</a>**, <a href="https://sportsbite.org/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://t.me/+Zo7CoigxqRczMjRk" target="_blank" rel="noopener noreferrer">Telegram</a> / <a href="https://discord.gg/Qg7uRXWAhU" target="_blank" rel="noopener noreferrer">Discord</a>
 * ⭐ **<a href="https://streamsports99.ru" target="_blank" rel="noopener noreferrer">StreamSports99</a>** / <a href="https://streamsports99.website/" target="_blank" rel="noopener noreferrer">Mirrors</a> / <a href="https://streamsports99.su/vpns" target="_blank" rel="noopener noreferrer">Bypass Blocks</a> / <a href="https://discord.gg/sUwU528aRn" target="_blank" rel="noopener noreferrer">Discord</a>
 * ⭐ **<a href="https://dlive.sx/" target="_blank" rel="noopener noreferrer">DaddyLive</a>**, <a href="https://daddylive.pk/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://t.me/+8uBUT1-0B741NTll" target="_blank" rel="noopener noreferrer">Telegram</a> / <a href="https://discord.gg/eJs8FRqt7G" target="_blank" rel="noopener noreferrer">Discord</a>
-* ⭐ **<a href="https://sportsbite.org/" target="_blank" rel="noopener noreferrer">SportsBite</a>**, <a href="https://sportsbite.org/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://t.me/+Zo7CoigxqRczMjRk" target="_blank" rel="noopener noreferrer">Telegram</a> / <a href="https://discord.gg/Qg7uRXWAhU" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://aurasports.xyz/" target="_blank" rel="noopener noreferrer">AURA Sports</a> / <a href="https://discord.gg/NPuBAJZy7Y" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://damitv.st/" target="_blank" rel="noopener noreferrer">DamiTV</a> or <a href="https://www.90minutes.pro/" target="_blank" rel="noopener noreferrer">90minutes</a> / <a href="https://discord.gg/SyUrxKykh" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://watchsports.su/" target="_blank" rel="noopener noreferrer">WatchSports(su)</a>
@@ -180,7 +181,7 @@ French / Français
 * <a href="https://v2.sportsurge.net/" target="_blank" rel="noopener noreferrer">Sportsurge</a>
 * <a href="https://matchora.to/" target="_blank" rel="noopener noreferrer">⁠Matchora</a>
 * <a href="https://stability.taxidev.me/" target="_blank" rel="noopener noreferrer">⁠Stability</a>
-* <a href="https://total-sportekk.st/" target="_blank" rel="noopener noreferrer">TotalSportek</a> or <a href="https://ww1.sportsurge.st/" target="_blank" rel="noopener noreferrer">Sportsurge.st</a> / <a href="https://discord.com/invite/mdEsarNMyF" target="_blank" rel="noopener noreferrer">Discord</a>
+* <a href="https://totalsport-ek.st/" target="_blank" rel="noopener noreferrer">TotalSportek</a> or <a href="https://sportsurges.st/" target="_blank" rel="noopener noreferrer">Sportsurge.st</a> / <a href="https://discord.com/invite/mdEsarNMyF" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://tap4sport.st/" target="_blank" rel="noopener noreferrer">Tap4Sport</a>, <a href="https://tap4sport.ci/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://tap4sport.pw/" target="_blank" rel="noopener noreferrer">3</a> / <a href="http://tap4sport.link/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/+LWp6SUzrbVUwZjE0" target="_blank" rel="noopener noreferrer">TG</a>
 * <a href="https://cmvxd.lovable.app/" target="_blank" rel="noopener noreferrer">⁠CMVTV</a> / <a href="https://cmvwd.lovable.app/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/cricketmemesverse" target="_blank" rel="noopener noreferrer">Telegram</a>
 * <a href="https://fantasticsoda.com/" target="_blank" rel="noopener noreferrer">⁠Fantastic Soda</a>
