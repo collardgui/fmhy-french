@@ -51,6 +51,7 @@ French / Français
 * <a href="https://purstream.wiki/" target="_blank" rel="noopener noreferrer">⁠Purstream</a> - Movies / TV / Anime
 * <a href="https://aether.ist/" target="_blank" rel="noopener noreferrer">Aether</a>, <a href="https://aether.cx/" target="_blank" rel="noopener noreferrer">2</a> - Movies / TV / Anime / Auto-Next / <a href="https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/movie-web-sources.md" target="_blank" rel="noopener noreferrer">Extensions</a> / <a href="https://discord.gg/MadMF7xb5q" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://frembed.uno/" target="_blank" rel="noopener noreferrer">frembed</a> - Movies / TV / Anime / Dub
+* <a href="https://www.dulourd.boo/" target="_blank" rel="noopener noreferrer">dulourd</a> - Movies / TV / Geoblocked
 * <a href="https://bowdtv.com/" target="_blank" rel="noopener noreferrer">⁠Bowd</a> - Movies / TV / Live TV
 * <a href="https://mfp666.blogspot.com/" target="_blank" rel="noopener noreferrer">Paradise lost.666</a> - Classic French Movies / TV / Music
 * <a href="https://filmarevoirnad.blogspot.com/" target="_blank" rel="noopener noreferrer">Film à Revoir</a> - Classic French Movies
