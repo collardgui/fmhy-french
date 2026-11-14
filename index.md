@@ -163,7 +163,7 @@ French / Français
 * ⭐ **<a href="https://sportsbite.org/" target="_blank" rel="noopener noreferrer">SportsBite</a>**, <a href="https://sportsbite.org/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://t.me/+Zo7CoigxqRczMjRk" target="_blank" rel="noopener noreferrer">Telegram</a> / <a href="https://discord.gg/Qg7uRXWAhU" target="_blank" rel="noopener noreferrer">Discord</a>
 * ⭐ **<a href="https://streamsports99.ru" target="_blank" rel="noopener noreferrer">StreamSports99</a>** / <a href="https://streamsports99.website/" target="_blank" rel="noopener noreferrer">Mirrors</a> / <a href="https://streamsports99.su/vpns" target="_blank" rel="noopener noreferrer">Bypass Blocks</a> / <a href="https://discord.gg/sUwU528aRn" target="_blank" rel="noopener noreferrer">Discord</a>
 * ⭐ **<a href="https://dlive.sx/" target="_blank" rel="noopener noreferrer">DaddyLive</a>**, <a href="https://daddylive.pk/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://t.me/+8uBUT1-0B741NTll" target="_blank" rel="noopener noreferrer">Telegram</a>
-* <a href="https://aurasports.xyz/" target="_blank" rel="noopener noreferrer">AURA Sports</a> / <a href="https://discord.gg/NPuBAJZy7Y" target="_blank" rel="noopener noreferrer">Discord</a>
+* <a href="https://aurasports.cfd/" target="_blank" rel="noopener noreferrer">AuraSports</a>, <a href="https://aurasports.xyz/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://discord.gg/NPuBAJZy7Y" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://damitv.st/livetv" target="_blank" rel="noopener noreferrer">DamiTV</a> or <a href="https://ondemand.st/" target="_blank" rel="noopener noreferrer">OnDemand</a>, <a href="https://www.90minutes.pro/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://ondemand.to" target="_blank" rel="noopener noreferrer">3</a> / <a href="https://discord.gg/SyUrxKykh" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://watchsports.su/" target="_blank" rel="noopener noreferrer">WatchSports(su)</a>
 * <a href="https://strumyk.pk/" target="_blank" rel="noopener noreferrer">Strumyk</a> or <a href="https://strims24.st/" target="_blank" rel="noopener noreferrer">Strims24</a> / <a href="https://strumyk.domains/" target="_blank" rel="noopener noreferrer">Status</a>
@@ -190,6 +190,7 @@ French / Français
 * <a href="https://crichd.at/" target="_blank" rel="noopener noreferrer">CricHD</a>
 * <a href="https://thetvapp.plus/" target="_blank" rel="noopener noreferrer">TheTVApp</a>
 * <a href="https://www.rerace.net/sports/" target="_blank" rel="noopener noreferrer">Rerace</a>
+* <a href="https://scorezonetv.live/" target="_blank" rel="noopener noreferrer">⁠ScoreZone TV</a>
 * <a href="https://reedstreams.to/" target="_blank" rel="noopener noreferrer">Reedsports</a>
 * <a href="https://mainportal66.com/" target="_blank" rel="noopener noreferrer">MainPortal66</a>
 * <a href="https://www.fctv33go.hair/" target="_blank" rel="noopener noreferrer">⁠FCTV33</a>, <a href="https://emmau680.driveraudiencej2zeu49.sbs/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://t.me/madplay77_b" target="_blank" rel="noopener noreferrer">Telegram</a>
