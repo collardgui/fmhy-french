@@ -31,7 +31,7 @@ French / Français
 
 * ⭐ **<a href="https://loadix.fun/" target="_blank" rel="noopener noreferrer">⁠Loadix</a>** - Movies / TV / Anime
 * <a href="https://www.wawacity.press/" target="_blank" rel="noopener noreferrer">WawaCity</a> - Movies / TV / <a href="https://wawacity-info.com/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/Wawacityofficiel" target="_blank" rel="noopener noreferrer">Telegram</a>
-* <a href="https://www.extreme-down.press/" target="_blank" rel="noopener noreferrer">Extreme-Down</a> - Video / Audio / Books
+* <a href="https://www.extreme-down.rentals/" target="_blank" rel="noopener noreferrer">Extreme-Down</a> - Video / Audio / Books
 * <a href="https://muaddib-sci-fi.blogspot.com/" target="_blank" rel="noopener noreferrer">MuaDib</a> - Sci-Fi Movies
 * <a href="https://www.pirate-punk.net/" target="_blank" rel="noopener noreferrer">PiratePunk</a> - Punk Music / Radio / Concerts Dates / Forum
 * <a href="https://www.emurom.net/" target="_blank" rel="noopener noreferrer">Emurom</a> - Retro ROMs
@@ -132,6 +132,7 @@ French / Français
 * <a href="https://xyzstreams.st/" target="_blank" rel="noopener noreferrer">xyzstreams</a> - TV / Sports
 * <a href="https://tvexplorer.live/" target="_blank" rel="noopener noreferrer">⁠TV Explorer</a> - TV / Sports
 * <a href="https://tvnow247.top/" target="_blank" rel="noopener noreferrer">TV247US</a> - TV / Sports
+* <a href="https://pflix.net/live" target="_blank" rel="noopener noreferrer">⁠PFlix Live</a> - TV / Sports
 * <a href="https://www.cxtvlive.com/" target="_blank" rel="noopener noreferrer">CXtv</a> - TV / Sports
 * <a href="https://watchtvs.live/" target="_blank" rel="noopener noreferrer">WatchTVs</a> - TV
 * <a href="https://www.globalfreetv.com/" target="_blank" rel="noopener noreferrer">Global Free TV</a> - TV / <a href="https://discord.com/invite/pPaerCghRN" target="_blank" rel="noopener noreferrer">Discord</a>
