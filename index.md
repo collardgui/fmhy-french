@@ -131,7 +131,6 @@ French / Français
 * <a href="https://freetvgarden.com/" target="_blank" rel="noopener noreferrer">⁠FreeTVGarden</a> - TV / Sports / Globe Style
 * <a href="https://xyzstreams.st/" target="_blank" rel="noopener noreferrer">xyzstreams</a> - TV / Sports
 * <a href="https://tvexplorer.live/" target="_blank" rel="noopener noreferrer">⁠TV Explorer</a> - TV / Sports
-* <a href="https://tvnow247.top/" target="_blank" rel="noopener noreferrer">TV247US</a> - TV / Sports
 * <a href="https://pflix.net/live" target="_blank" rel="noopener noreferrer">⁠PFlix Live</a> - TV / Sports
 * <a href="https://www.cxtvlive.com/" target="_blank" rel="noopener noreferrer">CXtv</a> - TV / Sports
 * <a href="https://watchtvs.live/" target="_blank" rel="noopener noreferrer">WatchTVs</a> - TV
