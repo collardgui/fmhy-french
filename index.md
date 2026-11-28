@@ -162,7 +162,7 @@ French / Français
 * ⭐ **<a href="https://zlive.st/" target="_blank" rel="noopener noreferrer">zlive</a>**
 * ⭐ **<a href="https://sportsbite.org/" target="_blank" rel="noopener noreferrer">SportsBite</a>**, <a href="https://sportsbite.org/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://t.me/+Zo7CoigxqRczMjRk" target="_blank" rel="noopener noreferrer">Telegram</a> / <a href="https://discord.gg/Qg7uRXWAhU" target="_blank" rel="noopener noreferrer">Discord</a>
 * ⭐ **<a href="https://streamsports99.is" target="_blank" rel="noopener noreferrer">StreamSports99</a>** / <a href="https://streamsports99.website/" target="_blank" rel="noopener noreferrer">Mirrors</a> / <a href="https://streamsports99.is/vpns" target="_blank" rel="noopener noreferrer">Bypass Blocks</a> / <a href="https://discord.gg/sUwU528aRn" target="_blank" rel="noopener noreferrer">Discord</a>
-* ⭐ **<a href="https://dlhd.st/" target="_blank" rel="noopener noreferrer">DaddyLive</a>**, <a href="https://thedaddy.li/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://daddylive.pk/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/+8uBUT1-0B741NTll" target="_blank" rel="noopener noreferrer">Telegram</a>
+* ⭐ **<a href="https://thedaddy.li/" target="_blank" rel="noopener noreferrer">DaddyLive</a>** / <a href="https://daddylive.pk/" target="_blank" rel="noopener noreferrer">Status</a> / <a href="https://t.me/+8uBUT1-0B741NTll" target="_blank" rel="noopener noreferrer">Telegram</a>
 * <a href="https://aurasports.cfd/" target="_blank" rel="noopener noreferrer">AuraSports</a>, <a href="https://aurasports.xyz/" target="_blank" rel="noopener noreferrer">2</a> / <a href="https://discord.gg/NPuBAJZy7Y" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://damitv.st/livetv" target="_blank" rel="noopener noreferrer">DamiTV</a> or <a href="https://ondemand.st/" target="_blank" rel="noopener noreferrer">OnDemand</a>, <a href="https://www.90minutes.pro/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://ondemand.to" target="_blank" rel="noopener noreferrer">3</a> / <a href="https://discord.gg/SyUrxKykh" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://matchora.st/" target="_blank" rel="noopener noreferrer">⁠Matchora</a>
@@ -182,7 +182,7 @@ French / Français
 * <a href="https://tap4sport.st/" target="_blank" rel="noopener noreferrer">Tap4Sport</a>, <a href="https://tap4sport.pw/" target="_blank" rel="noopener noreferrer">2</a> / <a href="http://tap4sport.link/" target="_blank" rel="noopener noreferrer">Status</a>
 * <a href="https://cmvwd.lovable.app/" target="_blank" rel="noopener noreferrer">⁠CMVTV</a> / <a href="https://t.me/cricketmemesverse" target="_blank" rel="noopener noreferrer">Telegram</a>
 * <a href="https://fantasticsoda.com/" target="_blank" rel="noopener noreferrer">⁠Fantastic Soda</a>
-* <a href="https://freestreams-live1h.pk/" target="_blank" rel="noopener noreferrer">FSL</a> / <a href="https://discord.gg/eXXJzDPchU" target="_blank" rel="noopener noreferrer">Discord</a>
+* <a href="https://freestreams-live1j.pk/" target="_blank" rel="noopener noreferrer">FSL</a> / <a href="https://discord.gg/eXXJzDPchU" target="_blank" rel="noopener noreferrer">Discord</a>
 * <a href="https://streamic.st/" target="_blank" rel="noopener noreferrer">⁠Streami</a> / <a href="https://rentry.co/Streami" target="_blank" rel="noopener noreferrer">Status</a>
 * <a href="https://sportontv.stream/" target="_blank" rel="noopener noreferrer">SportOnTV</a> / <a href="https://discord.gg/YhQPSSMps2" target="_blank" rel="noopener noreferrer">Discord</a> / <a href="https://sotproxy.ext.io" target="_blank" rel="noopener noreferrer">Mirrors</a>
 * <a href="https://falconstreams.st/" target="_blank" rel="noopener noreferrer">⁠FalconStreams</a> / <a href="https://discord.gg/FPgKwtXcYV" target="_blank" rel="noopener noreferrer">Discord</a>
@@ -191,7 +191,7 @@ French / Français
 * <a href="https://www.rerace.net/sports/" target="_blank" rel="noopener noreferrer">Rerace</a>
 * <a href="https://scorezonetv.live/" target="_blank" rel="noopener noreferrer">⁠ScoreZone TV</a>
 * <a href="https://mainportal66.com/" target="_blank" rel="noopener noreferrer">MainPortal66</a>
-* <a href="https://www.fctv33go.hair/" target="_blank" rel="noopener noreferrer">⁠FCTV33</a> / <a href="https://t.me/madplay77_b" target="_blank" rel="noopener noreferrer">Telegram</a>
+* <a href="https://www.fctv33go.beauty/" target="_blank" rel="noopener noreferrer">⁠FCTV33</a> / <a href="https://t.me/madplay77_b" target="_blank" rel="noopener noreferrer">Telegram</a>
 * <a href="https://vipleague.li/" target="_blank" rel="noopener noreferrer">VIP Box Sports</a>, <a href="https://olympiclive.me/" target="_blank" rel="noopener noreferrer">2</a>, <a href="https://fbstream.st/" target="_blank" rel="noopener noreferrer">3</a> / <a href="https://rentry.co/vipbox-mirrors" target="_blank" rel="noopener noreferrer">Mirrors</a>
 * <a href="http://www.fawanews.sc/" target="_blank" rel="noopener noreferrer">FawaNews</a>
 * <a href="https://baked.live/" target="_blank" rel="noopener noreferrer">Baked.live</a> - MMA / Wrestling / <a href="https://discord.com/invite/baked" target="_blank" rel="noopener noreferrer">Discord</a>
